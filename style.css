@@ -1,0 +1,171 @@
+/* css of header */
+*{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+.bg-image{
+
+}
+.head{
+    background: #ffffff;
+    background-image: url(/images/banner/banner1.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    padding-top: 0.1px;
+}
+.heading{
+    text-align: right;
+}
+.heading-title{
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 215px;
+    margin-left: 1000px;
+    margin-right: 230px;
+    color: #151414;
+}
+.heading-des{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 1220px;
+    margin-right: 230px;
+    color: #444343;
+}
+.heading-btn{
+    margin-right: 230px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    padding: 25px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+/* End of head */
+/* css of main */
+.container{
+    display: flex;
+}
+.person-img{
+    margin-top: 160px;
+    margin-left: 250px;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 380px;
+    margin-left: 200px;
+    margin-right: 400px;
+    color: #151414;
+}
+.main-des{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 350px; 
+    color: #444343;
+}
+ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+li{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.fa-solid{
+    color: rgb(0, 255, 115);
+}
+/* plan css starts */
+.plan-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.plan-subtitle{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.plan-des{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+/* paln css end */
+/* main css ends */
+/* footer css starts */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    background: #151414;
+    height: 500px;
+    margin-top: 100px;
+}
+.future{
+    margin-left: 300px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-future{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-right: 400px;
+}
+.footer-img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.subscribe{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 600px;
+    margin-top: 100px;
+}
+.footer-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    padding: 25px;
+    background:#FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input{
+    height: 60px;
+    border: 5px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+}
